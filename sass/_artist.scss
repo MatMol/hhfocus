@@ -1,0 +1,32 @@
+.artist{
+	.container-fluid{
+		padding: 50px;
+		background-color: $color-prim;
+		color: $color-secun;
+		hr{
+			margin-top: 5px;
+			margin-bottom: 5px; 
+			border-color: $color-prim;
+		}
+		.col-md-8{
+			position: relative;
+			top: 60px;
+
+			p{
+				font-family: $font-secun;
+			}
+
+			blockquote{
+				background-color: $color-prim;
+				font-family: $font-prim;
+			}
+		}
+
+		h2{
+			position: relative;
+			bottom: 30px;
+			font-family: $font-prim;
+			font-size: 40px;
+		}
+	}
+}

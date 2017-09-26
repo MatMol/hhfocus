@@ -1,0 +1,30 @@
+.noti{
+	.container-fluid{
+		.jumbotron{
+			background-color: $color-secun;
+			margin-bottom: 0;
+			color: $color-prim;
+
+			h2{
+				font-family: $font-prim;
+			}
+
+			p{
+				font-family: $font-secun;
+				letter-spacing: 2px;
+			}
+		}
+
+		.btn{
+			color: $color-secun;
+			background-color: $color-prim;
+			border-color: $color-prim;
+			font-family: $font-prim;
+
+			&:hover{
+		  		background-color: $color-hover;
+		  		border-color: $color-hover;
+		  		}
+		}
+	}
+}

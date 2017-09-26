@@ -1,0 +1,76 @@
+@media (max-width: 723px){
+	header{
+		.container{
+			h1{
+				width: 250px;
+
+			}
+
+			p{
+				width: 250px;
+			}
+		}
+	}
+}
+
+@media (max-width: 450px){
+	header{
+		.container{
+			h1{
+				position: relative;
+				right: 50px;
+				color: $color-secun;
+			}
+
+			p{
+				position: relative;
+				right: 50px;
+				color: $color-secun;
+			}
+		}
+	}
+}
+
+@media (max-width: 375px){
+	header{
+		.container{
+			h1{
+				position: relative;
+				right: 120px;
+			}
+
+			p{
+				position: relative;
+				right: 120px;
+			}
+
+			a{
+				position: relative;
+				right: 120px;
+			}
+		}
+	}
+}
+
+@media (max-width: 1000px){
+	header{
+		.container{
+			h1{
+				position: relative;
+				right: 120px;
+				width: 250px
+			}
+
+			p{
+				position: relative;
+				right: 120px;
+				width: 250px;
+			}
+
+			a{
+				position: relative;
+				right: 120px;
+			}
+		}
+	}
+}

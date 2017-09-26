@@ -1,0 +1,52 @@
+.navbar{
+	background-color: $color-prim;
+	margin-bottom: 0;
+
+	.navbar-header{
+		.navbar-toggle{
+			border-color: $color-secun;
+
+			.icon-bar{
+				color: $color-secun;
+			}
+		}
+
+		a{
+			color: $color-secun;
+			font-family: $font-prim;
+			font-size: 20px;
+
+			&:hover{
+				color: $color-hover;
+			}
+
+			.hbran{
+				color: $color-hover;
+
+				&:hover{
+					color: $color-secun;
+				}
+			}
+		}
+	}
+	.navbar-nav{
+		li{
+			a{
+				font-family: $font-prim;
+				font-size: 16px;
+				color: $color-secun;
+				&:hover{
+					color: $color-hover;
+				}
+			}
+		}
+
+		.dropdown-menu{
+			li{
+				a{
+					color: $color-prim;
+				}
+			}
+		}
+	}
+}

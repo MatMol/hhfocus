@@ -1,0 +1,36 @@
+header{
+	.container{
+	  width: 100%;
+	  padding: 160px;
+	  min-height: auto;
+	  color: white;
+	  background-image: url("../img/biggied3.jpg");
+	  background-repeat: no-repeat;
+	  background-position: right;
+	  background-attachment: fixed;
+
+	  h1{
+	  	color: $color-prim;
+	  	font-family: $font-prim;
+	  }
+
+	  p{
+	  	color: black;
+	  	margin-bottom: 20px;
+	  	font-family: $font-secun;
+	  	letter-spacing: 2px;
+	  }
+
+	  .btn{
+	  	background-color: $color-prim;
+	  	color: $color-secun;
+	  	border-color: $color-prim;
+	  	font-family: $font-prim;
+
+	  	&:hover{
+	  		background-color: $color-hover;
+	  		border-color: $color-hover;
+	  	}
+	  }
+	}
+}

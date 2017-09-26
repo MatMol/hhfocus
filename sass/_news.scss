@@ -1,0 +1,37 @@
+.news{
+	.container-fluid{
+		h2{
+			font-family: $font-prim;
+			font-size: 40px;
+		}
+		.row{
+			.col-md-3{
+
+				.thumbnail{
+					&:hover{
+						border-color: $color-hover;
+					}
+				}
+				h2{
+					font-family: $font-prim;
+					font-size: 30px;
+				}
+
+				p{
+					font-family: $font-secun;
+				}
+
+				a{
+					font-family: $font-secun;
+					letter-spacing: 1px;
+					text-decoration: none;
+					color: $color-prim;
+
+					&:hover{
+						color: $color-hover;
+					}
+				}
+			}
+		}
+	}
+}

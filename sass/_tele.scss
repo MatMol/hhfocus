@@ -1,0 +1,27 @@
+.tele{
+	background-color: $color-black;
+	.container-fluid{
+		padding: 40px;
+		hr{
+			margin-top: 5px;
+			margin-bottom: 5px; 
+			border-color: $color-black;
+		}
+
+		h2{
+			font-family: $font-prim;
+			color: $color-secun;
+			font-size: 40px;
+		}
+	}
+
+	.col-md-7{
+		position: relative;
+		top: 40px;
+
+		p{
+			font-family: $font-secun;
+			color: $color-secun;
+		}
+	}
+}

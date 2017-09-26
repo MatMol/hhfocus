@@ -1,0 +1,199 @@
+.navbar {
+  background-color: #0d0a0b;
+  margin-bottom: 0; }
+  .navbar .navbar-header .navbar-toggle {
+    border-color: white; }
+    .navbar .navbar-header .navbar-toggle .icon-bar {
+      color: white; }
+  .navbar .navbar-header a {
+    color: white;
+    font-family: "Rubik", sans-serif;
+    font-size: 20px; }
+    .navbar .navbar-header a:hover {
+      color: #ed1c24; }
+    .navbar .navbar-header a .hbran {
+      color: #ed1c24; }
+      .navbar .navbar-header a .hbran:hover {
+        color: white; }
+  .navbar .navbar-nav li a {
+    font-family: "Rubik", sans-serif;
+    font-size: 16px;
+    color: white; }
+    .navbar .navbar-nav li a:hover {
+      color: #ed1c24; }
+  .navbar .navbar-nav .dropdown-menu li a {
+    color: #0d0a0b; }
+
+header .container {
+  width: 100%;
+  padding: 160px;
+  min-height: auto;
+  color: white;
+  background-image: url("../img/biggied3.jpg");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-attachment: fixed; }
+  header .container h1 {
+    color: #0d0a0b;
+    font-family: "Rubik", sans-serif; }
+  header .container p {
+    color: black;
+    margin-bottom: 20px;
+    font-family: "Roboto Mono", monospace;
+    letter-spacing: 2px; }
+  header .container .btn {
+    background-color: #0d0a0b;
+    color: white;
+    border-color: #0d0a0b;
+    font-family: "Rubik", sans-serif; }
+    header .container .btn:hover {
+      background-color: #ed1c24;
+      border-color: #ed1c24; }
+
+.noti .container-fluid .jumbotron {
+  background-color: white;
+  margin-bottom: 0;
+  color: #0d0a0b; }
+  .noti .container-fluid .jumbotron h2 {
+    font-family: "Rubik", sans-serif; }
+  .noti .container-fluid .jumbotron p {
+    font-family: "Roboto Mono", monospace;
+    letter-spacing: 2px; }
+.noti .container-fluid .btn {
+  color: white;
+  background-color: #0d0a0b;
+  border-color: #0d0a0b;
+  font-family: "Rubik", sans-serif; }
+  .noti .container-fluid .btn:hover {
+    background-color: #ed1c24;
+    border-color: #ed1c24; }
+
+.artist .container-fluid {
+  padding: 50px;
+  background-color: #0d0a0b;
+  color: white; }
+  .artist .container-fluid hr {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-color: #0d0a0b; }
+  .artist .container-fluid .col-md-8 {
+    position: relative;
+    top: 60px; }
+    .artist .container-fluid .col-md-8 p {
+      font-family: "Roboto Mono", monospace; }
+    .artist .container-fluid .col-md-8 blockquote {
+      background-color: #0d0a0b;
+      font-family: "Rubik", sans-serif; }
+  .artist .container-fluid h2 {
+    position: relative;
+    bottom: 30px;
+    font-family: "Rubik", sans-serif;
+    font-size: 40px; }
+
+.news .container-fluid h2 {
+  font-family: "Rubik", sans-serif;
+  font-size: 40px; }
+.news .container-fluid .row .col-md-3 .thumbnail:hover {
+  border-color: #ed1c24; }
+.news .container-fluid .row .col-md-3 h2 {
+  font-family: "Rubik", sans-serif;
+  font-size: 30px; }
+.news .container-fluid .row .col-md-3 p {
+  font-family: "Roboto Mono", monospace; }
+.news .container-fluid .row .col-md-3 a {
+  font-family: "Roboto Mono", monospace;
+  letter-spacing: 1px;
+  text-decoration: none;
+  color: #0d0a0b; }
+  .news .container-fluid .row .col-md-3 a:hover {
+    color: #ed1c24; }
+
+.tele {
+  background-color: black; }
+  .tele .container-fluid {
+    padding: 40px; }
+    .tele .container-fluid hr {
+      margin-top: 5px;
+      margin-bottom: 5px;
+      border-color: black; }
+    .tele .container-fluid h2 {
+      font-family: "Rubik", sans-serif;
+      color: white;
+      font-size: 40px; }
+  .tele .col-md-7 {
+    position: relative;
+    top: 40px; }
+    .tele .col-md-7 p {
+      font-family: "Roboto Mono", monospace;
+      color: white; }
+
+.foot .container-fluid .col-md-6 h3 {
+  font-family: "Roboto Mono", monospace;
+  color: black; }
+.foot .container-fluid .col-md-6 .list-inline {
+  padding: 0;
+  margin: 0; }
+  .foot .container-fluid .col-md-6 .list-inline li a span {
+    font-size: 30px;
+    color: black;
+    margin: 0 5px; }
+    .foot .container-fluid .col-md-6 .list-inline li a span:hover {
+      color: #ed1c24; }
+.foot .container-fluid .col-md-5 .list-inline {
+  position: relative;
+  top: 30px; }
+  .foot .container-fluid .col-md-5 .list-inline li a {
+    text-decoration: none; }
+    .foot .container-fluid .col-md-5 .list-inline li a span {
+      font-family: "Roboto Mono", monospace;
+      font-size: 20px;
+      color: black;
+      margin: 0 5px; }
+      .foot .container-fluid .col-md-5 .list-inline li a span:hover {
+        color: #ed1c24; }
+
+.copy {
+  padding-top: 20px; }
+  .copy .container-fluid p {
+    font-family: "Rubik", sans-serif;
+    font-size: 12px;
+    color: black; }
+
+@media (max-width: 723px) {
+  header .container h1 {
+    width: 250px; }
+  header .container p {
+    width: 250px; } }
+@media (max-width: 450px) {
+  header .container h1 {
+    position: relative;
+    right: 50px;
+    color: white; }
+  header .container p {
+    position: relative;
+    right: 50px;
+    color: white; } }
+@media (max-width: 375px) {
+  header .container h1 {
+    position: relative;
+    right: 120px; }
+  header .container p {
+    position: relative;
+    right: 120px; }
+  header .container a {
+    position: relative;
+    right: 120px; } }
+@media (max-width: 1000px) {
+  header .container h1 {
+    position: relative;
+    right: 120px;
+    width: 250px; }
+  header .container p {
+    position: relative;
+    right: 120px;
+    width: 250px; }
+  header .container a {
+    position: relative;
+    right: 120px; } }
+
+/*# sourceMappingURL=style.css.map */
