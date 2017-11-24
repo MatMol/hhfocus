@@ -74,3 +74,36 @@
 		}
 	}
 }
+
+@media (min-width 1400px){
+	header{
+		.container{
+			background-attachment: scroll;
+		}
+	}
+}
+
+@media (min-width: 1420px){
+	.artist{
+		.container-fluid{
+			.row{
+				.col-md-4{
+					width: 400px;
+				}
+			}
+		}
+	}
+}
+
+@media (min-width: 1700px){
+	.artist{
+		.container-fluid{
+			.row{
+				.col-md-4{
+					width: 500px;
+				}
+			}
+		}
+	}
+}
+
