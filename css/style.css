@@ -31,8 +31,7 @@ header .container {
   color: white;
   background-image: url("../img/biggied3.jpg");
   background-repeat: no-repeat;
-  background-position: right;
-  background-attachment: fixed; }
+  background-position: right; }
   header .container h1 {
     color: #0d0a0b;
     font-family: "Rubik", sans-serif; }
